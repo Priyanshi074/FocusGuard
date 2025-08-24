@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>FocusGuard Options</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="container">
+    <h1>FocusGuard Settings</h1>
+
+    <section class="card">
+      <h2>Timer Settings</h2>
+      <div class="row">
+        <label>Focus minutes
+          <input id="focusMinutes" type="number" min="1" max="180">
+        </label>
+        <label>Break minutes
+          <input id="breakMinutes" type="number" min="1" max="60">
+        </label>
+        <label class="checkbox">
+          <input id="autoStartBreak" type="checkbox"> Auto-start break after focus
+        </label>
+      </div>
+      <button id="saveSettings">Save</button>
+    </section>
+
+    <section class="card">
+      <h2>Blocklist</h2>
+      <form id="addForm">
+        <input id="domain" type="text" placeholder="e.g. youtube.com">
+        <button type="submit">Add</button>
+      </form>
+      <ul id="list"></ul>
+    </section>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>

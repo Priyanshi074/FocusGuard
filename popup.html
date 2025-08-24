@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>FocusGuard</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>FocusGuard</h1>
+      <div class="timer" id="timer">25:00</div>
+
+      <label class="field">
+        <span>I'm focusing on:</span>
+        <input id="task" type="text" placeholder="e.g., Build FocusGuard" />
+      </label>
+
+      <div class="row">
+        <label
+          >Focus (min)
+          <input id="focusMinutes" type="number" min="1" max="180" />
+        </label>
+        <label
+          >Break (min)
+          <input id="breakMinutes" type="number" min="1" max="60" />
+        </label>
+      </div>
+
+      <div class="buttons">
+        <button id="start">Start Focus</button>
+        <button id="startBreak">Start Break</button>
+        <button id="pause" class="secondary">Pause</button>
+        <button id="cancel" class="secondary">Cancel</button>
+      </div>
+
+      <div class="stats">
+        <div>Completed focus sessions: <strong id="completed">0</strong></div>
+      </div>
+
+      <a href="options.html" target="_blank" class="link"
+        >Manage blocklist & settings →</a
+      >
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
