@@ -58,6 +58,32 @@ The extension is built with **Chrome Manifest V3** and modular design:
 
 ---
 
+## 📸 Screenshots
+
+Here’s a quick look at **FocusGuard** in action:
+
+### 🔹 Popup – Timer Controls
+Stay focused with **Start, Pause, Break, Cancel** options and a live countdown.
+
+<img src="screenshots/popup.png" alt="Popup UI" width="400"/>
+
+---
+
+### 🔹 Block Page – Distraction Warning
+Tried to open YouTube/Instagram? 🚫  
+FocusGuard gently reminds you with a **motivational quote** and shows the **time left** in your focus session.
+
+<img src="screenshots/block-page.png" alt="Blocked Page" width="600"/>
+<img src="screenshots/pause-resume.png" alt="Blocked Page" width="600"/>
+---
+
+### 🔹 Options Page – Settings
+Easily **customize your focus/break durations** ⏳ and **manage blocked websites** 📋.
+
+<img src="screenshots/options.png" alt="Options Page" width="600"/>
+
+---
+
 ## 🚀 Possible Improvements
 - 🌙 Dark mode UI  
 - ☁️ Sync with Chrome storage  
