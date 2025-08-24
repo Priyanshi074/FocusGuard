@@ -19,7 +19,7 @@ The extension is built with **Chrome Manifest V3** and modular design:
 1. **Manifest (manifest.json)** – Defines metadata, permissions, and entry points.  
 2. **Popup (popup.html + popup.js)** – Timer controls (Start, Pause, Break, Cancel).  
 3. **Background (background.js)** – Timer logic, site blocking, and notifications.  
-4. **Block Page (block.html)** – Motivational quotes + option to unblock for 5 minutes.  
+4. **Block Page (blocked.html)** – Motivational quotes + option to unblock for 5 minutes.  
 5. **Options Page (options.html)** – Add/remove blocked sites & set durations.  
 6. **Icons** – Custom icons for toolbar, store, and management page.  
 
@@ -27,7 +27,7 @@ The extension is built with **Chrome Manifest V3** and modular design:
 
 ## 🔄 Workflow
 1. Start a **focus session** from the popup.  
-2. If you visit a blocked site → redirected to **block.html**.  
+2. If you visit a blocked site → redirected to **blocked.html**.  
 3. Choose:
    - ✨ Stay Motivated  
    - ⏳ Allow site for 5 minutes  
@@ -78,3 +78,15 @@ The extension is built with **Chrome Manifest V3** and modular design:
 1. Clone this repo  
    ```bash
    git clone https://github.com/<your-username>/FocusGuard.git
+   ```
+2. Open Chrome → Extensions → Enable Developer Mode.
+3. Click Load Unpacked and select the project folder.
+4. Start focusing 🚀
+
+---
+
+## 📜 License
+MIT License – feel free to use and improve this project.
+
+## ⭐ Contribute
+Contributions are welcome! If you like FocusGuard, please ⭐ star the repo 😊
