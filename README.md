@@ -65,7 +65,7 @@ Here’s a quick look at **FocusGuard** in action:
 ### 🔹 Popup – Timer Controls
 Stay focused with **Start, Pause, Break, Cancel** options and a live countdown.
 
-<img src="screenshots/popup.jpg" alt="Popup UI" width="700"/>
+<img src="screenshots/popup.jpg" alt="Popup UI" width="600"/>
 
 ---
 
@@ -75,6 +75,7 @@ FocusGuard gently reminds you with a **motivational quote** and shows the **time
 
 <img src="screenshots/block-page.jpg" alt="Blocked Page" width="600"/>
 <img src="screenshots/Pause-Resume.jpg" alt="Blocked Page" width="600"/>
+
 ---
 
 ### 🔹 Options Page – Settings
