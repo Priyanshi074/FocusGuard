@@ -65,7 +65,7 @@ Here’s a quick look at **FocusGuard** in action:
 ### 🔹 Popup – Timer Controls
 Stay focused with **Start, Pause, Break, Cancel** options and a live countdown.
 
-<img src="screenshots/popup.png" alt="Popup UI" width="400"/>
+<img src="screenshots/popup.jpg" alt="Popup UI" width="400"/>
 
 ---
 
@@ -73,14 +73,14 @@ Stay focused with **Start, Pause, Break, Cancel** options and a live countdown.
 Tried to open YouTube/Instagram? 🚫  
 FocusGuard gently reminds you with a **motivational quote** and shows the **time left** in your focus session.
 
-<img src="screenshots/block-page.png" alt="Blocked Page" width="600"/>
-<img src="screenshots/pause-resume.png" alt="Blocked Page" width="600"/>
+<img src="screenshots/block-page.jpg" alt="Blocked Page" width="600"/>
+<img src="screenshots/Pause-Resume.jpg" alt="Blocked Page" width="600"/>
 ---
 
 ### 🔹 Options Page – Settings
 Easily **customize your focus/break durations** ⏳ and **manage blocked websites** 📋.
 
-<img src="screenshots/options.png" alt="Options Page" width="600"/>
+<img src="screenshots/options.jpg" alt="Options Page" width="600"/>
 
 ---
 
