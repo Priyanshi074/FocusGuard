@@ -65,7 +65,7 @@ Here’s a quick look at **FocusGuard** in action:
 ### 🔹 Popup – Timer Controls
 Stay focused with **Start, Pause, Break, Cancel** options and a live countdown.
 
-<img src="screenshots/popup.jpg" alt="Popup UI" width="400"/>
+<img src="screenshots/popup.jpg" alt="Popup UI" width="700"/>
 
 ---
 
@@ -113,6 +113,8 @@ Easily **customize your focus/break durations** ⏳ and **manage blocked website
 
 ## 📜 License
 MIT License – feel free to use and improve this project.
+
+---
 
 ## ⭐ Contribute
 Contributions are welcome! If you like FocusGuard, please ⭐ star the repo 😊
